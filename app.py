@@ -31,7 +31,7 @@ def predict(image):
 def clear_inputs():
     return None, ""
 
-# Gradio Interface with better UI
+# Gradio Interface 
 with gr.Blocks(theme="soft") as demo:
     gr.Markdown("## YOLOv8 F1 Team Livery Detection")
     gr.Markdown("Upload an image and CLICK PREDICT to detect the F1 team based on livery")
